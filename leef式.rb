@@ -27,8 +27,7 @@ n = gets.chomp
 puts leet(n)
 
 
-
-※行間を開けて出力
+#行間を開けて出力
 
 def language(input)
     lines = input.split(" ")
@@ -41,7 +40,7 @@ input = gets.chomp
 language(input)
 
 
-※カンマを入れて行を開ける方法
+#カンマを入れて行を開ける方法
 n = gets.to_i
 strings = gets.chomp.split(",")
 

@@ -1,4 +1,4 @@
-※N行を出力
+#Ｎ行出力
 def language(lines)
  lines.each do |line|
   puts line
@@ -18,12 +18,12 @@ language(lines)
 
 
 
-※三行データ順に出す
+#三行データを順に出す
 
 def language (a,b,c)
-puts a
-puts b
-puts c
+ puts a
+ puts b
+ puts c
 end
 
 a = gets.chomp 
