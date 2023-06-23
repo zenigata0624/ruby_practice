@@ -8,6 +8,8 @@ else
 end
 
 
+
+
 mikan = 80
 
 if mikan > 100
