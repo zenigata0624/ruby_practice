@@ -7,3 +7,14 @@ end
 
 n = gets.to_i
 puts math(n)
+
+#この方法でも可能
+n = gets.to_i 
+
+a = []
+for i in 0..41 do
+  n = (n*0.8).floor
+  a.push(n)
+end
+
+ puts a.last
