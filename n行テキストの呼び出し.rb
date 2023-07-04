@@ -30,3 +30,15 @@ a = gets.chomp
 b = gets.chomp 
 c= gets.chomp
 language(a,b,c)
+
+
+#文字の間に/を挟む
+
+lang = gets.chomp
+ans = ''
+
+lang.each_char do |char|
+  ans += char + "/"
+end
+
+puts ans
