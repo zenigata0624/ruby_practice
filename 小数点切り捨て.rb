@@ -18,3 +18,13 @@ for i in 0..41 do
 end
 
  puts a.last
+  
+  #これでもok
+  
+ n = gets.to_i
+
+for i in 0..41 do
+    n = (n * 0.8).floor
+end
+
+puts n
