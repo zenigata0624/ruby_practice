@@ -6,6 +6,8 @@ end
 a,b,r = gets.chomp.split.map(&:to_i)
 n = gets.to_i 
 
+
+
 n.times do 
    x,y = gets.chomp.split.map(&:to_i) 
    if wood_area(a,b,r,x,y) 
